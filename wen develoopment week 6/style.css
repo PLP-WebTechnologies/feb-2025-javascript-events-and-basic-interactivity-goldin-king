@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#hoverEffectDiv {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.hoverEffect:hover {
+    background-color: lightblue;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-item {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#doubleClickArea {
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+}

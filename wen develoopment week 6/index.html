@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handling & Interactive Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Button Click -->
+    <button id="colorChangeBtn">Click me to change color</button>
+
+    <!-- Hover Effects -->
+    <div id="hoverEffectDiv" class="hoverEffect">Hover over me!</div>
+
+    <!-- Keypress Detection -->
+    <input type="text" id="keypressInput" placeholder="Type something..." />
+
+    <!-- Double Click -->
+    <div id="doubleClickArea">Double-click me!</div>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="devops.jpg" alt="Image 1" class="gallery-item" />
+        <img src="mobile banking.jpg" alt="Image 2" class="gallery-item" />
+        <img src="vulnerability.jpg" alt="Image 3" class="gallery-item" />
+    </div>
+
+    <!-- Form with Validation -->
+    <form id="myForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <label for="password">Password (min 8 chars):</label>
+        <input type="password" id="password" minlength="8" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
